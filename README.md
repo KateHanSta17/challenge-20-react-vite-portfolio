@@ -1,18 +1,21 @@
 # 20 React: React Portfolio
 
-## Github URL
+## Links
+### Github URL
 [React Portfolio Challenge 20 Github](https://github.com/KateHanSta17/react-portfolio-challenge-20)
 
-## Deployed Project Link
-[Deployed React Portfolio Challenge](placeholder URL)
+### Deployed Project Link
+[Deployed React Portfolio Challenge (Netlify)](https://bespoke-crepe-771df2.netlify.app/)
 
 ## Description
-This project is a portfolio website built using React and Vite. It showcases a collection of my work as a web developer, including projects, a brief bio, and ways to contact me.
+This project is a React-based portfolio website built with Vite, which showcases a collection of my work as a web developer. It includes various sections such as About Me, Portfolio, Contact, and Resume. Each section provides essential information about me, my projects, and ways to contact me. The portfolio is designed with mobile-first principles, ensuring that it is responsive across different devices.
 
 ## User Story
+```
 AS AN employer looking for candidates with experience building single-page applications,  
 I WANT to view a potential employee's deployed React portfolio of work samples,  
 SO THAT I can assess whether they're a good candidate for an open position.
+```
 
 ## Table of Contents
 - [Description](#description)
@@ -26,13 +29,23 @@ SO THAT I can assess whether they're a good candidate for an open position.
 - [Credits](#credits)
 
 ## Technologies Used
-- React.js
-- Vite
-- React Router DOM
+- React.js: JavaScript library for building user interfaces, used to create the components and handle dynamic page updates.
+- Vite: A modern build tool that offers fast builds and efficient development server for React projects.
+- React Router DOM: A library used to enable client-side routing, allowing the site to function as a single-page application (SPA).
+- Bootstrap: For responsive and mobile-first design, ensuring a polished and professional look.
+- JavaScript (ES6+): Core language features such as modern syntax, modules, and promises are used throughout the project.
 
 ## Installation
-To install the necessary dependencies, run the following command:
-```bash
+To install the necessary dependencies, follow these steps:
+
+1. Clone the repository
+```
+git clone https://github.com/KateHanSta17/react-portfolio-challenge-20.git
+cd react-portfolio-challenge-20
+```
+
+2. Install dependencies:
+```
 npm install
 ```
 
@@ -44,17 +57,28 @@ npm run dev
 ```
 Visit the app at ``` http://localhost:3000 ```.
 
+## Deployment
+To build and deploy the app to Netlify (or any other platform):
+1. Run:
+```
+npm run build
+```
+2. Follow the [Netlify deployment guide](https://vite.dev/guide/static-deploy.html#netlify) to deploy your built application.
+
 ## License
 MIT License.
 
 ## Screenshots
-<!-- Add screenshots of your portfolio here -->
-## Links
-- Deployed Application
-- [GitHub Repository](https://github.com/KateHanSta17/react-portfolio-challenge-20)
+![About Page](./src/assets/Screenshot%20about%20page.jpg)
+![Portfolio Page](./src/assets/Screenshot%20portfolio%20page.jpg)
+![Contact Page](./src/assets/Screenshot%20contact%20page.jpg)
+![Resume Page](./src/assets/Screenshot%20resume%20page.jpg)
 
 ## Credits
-This project was built as part of my web development bootcamp challenge.
+This project was built as part of the University of Sydney x EdX Coding Bootcamp Challenge.
+Special thanks to the instructors, teaching assistants, and peers for their support and guidance throughout the course.
+
+
 --------------
 ## Your Task
 
