@@ -7,18 +7,36 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
+
+# Production build directories
 dist
 dist-ssr
+build
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Miscellaneous
 *.local
+*.DS_Store
+*.sw?
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# Coverage reports
+coverage
+
+# Optional: Temporary folders for downloads (like screenshots or generated assets)
+temp
+.tmp
