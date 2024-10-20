@@ -2,7 +2,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
-import 'src/index.css'; // Assuming you are keeping your global styles here
+import './index.css'; // Assuming you are keeping your global styles here
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
