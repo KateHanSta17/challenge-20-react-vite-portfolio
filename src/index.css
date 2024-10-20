@@ -1,68 +1,234 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* General body styles */
 body {
+  font-family: 'Darker Grotesque', sans-serif;
+  background-color: #f8f9fa;
+  color: #000000;
   margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+  width: 100%;
+  text-align: center;
+}
+
+.header-title {
+  font-family: 'Lexend Zetta', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Navigation Menu */
+header ul.nav {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+header ul.nav li {
+  flex: 1;
+  margin: 0 10px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+header ul.nav li a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: 'Darker Grotesque', sans-serif;
+  text-decoration: none;
+  color: black;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* Style for About and Portfolio buttons */
+header ul.nav li:nth-child(1) a {
+  background-color: #ddb1fd;
+  border: 2px solid #6A0DAD;
+}
+
+header ul.nav li:nth-child(2) a {
+  background-color: #99eaea;
+  border: 2px solid #157676;
+}
+
+header ul.nav li:nth-child(3) a {
+  background-color: #99eaea;
+  border: 2px solid #157676;
+}
+
+header ul.nav li:nth-child(4) a {
+  background-color: #ddb1fd;
+  border: 2px solid #6A0DAD;
+}
+
+header ul.nav li a:hover {
+  color: white;
+  background-color: #6A0DAD;
+}
+
+/* Mobile Image Display (show only the first image on mobile) */
+@media (max-width: 768px) {
+  .gallery-container .col-6:nth-child(n+2) {
+      display: none; /* Hide all but the first image */
   }
-  a:hover {
-    color: #747bff;
+}
+
+/* Portfolio Title Styling */
+.portfolio-title {
+  font-family: 'Lexend Zetta', sans-serif; /* Same font as the header */
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-title {
+  font-family: 'Lexend Zetta', sans-serif; /* Same font as the header */
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* General Button Styles */
+.btn-github {
+  background-color: #ddb1fd; /* Purple */
+  color: black;
+  border-color: #6A0DAD; /* Dark Purple */
+}
+
+.btn-github:hover {
+  background-color: #6A0DAD;
+  color: white;
+}
+
+.btn-live {
+  background-color: #99eaea; /* Turquoise */
+  color: black;
+  border-color: #157676; /* Dark Turquoise */
+}
+
+.btn-live:hover {
+  background-color: #157676;
+  color: white;
+}
+
+/* LinkedIn Button Styling */
+.btn-linkedin {
+  background-color: #99eaea; /* Turquoise background */
+  color: black; /* Black text */
+  border-color: #157676; /* Dark turquoise border */
+}
+
+.btn-linkedin:hover {
+  background-color: #157676; /* Darker turquoise on hover */
+  color: white; /* White text on hover */
+}
+
+/* Center LinkedIn button on mobile, left-align on desktop */
+@media (max-width: 768px) {
+  .btn-linkedin {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
   }
-  button {
-    background-color: #f9f9f9;
+}
+
+/* Ensure space between image and buttons */
+.d-grid {
+  margin-top: 40px; /* Adds space between the buttons and content above */
+  margin-bottom: 40px; /* Adds space between the buttons and content below */
+}
+
+/* Mobile-specific rule if needed */
+@media (max-width: 768px) {
+  .d-grid {
+      margin-top: 40px; /* Ensure space remains on mobile */
+      margin-bottom: 40px; /* Ensure space remains on mobile */
   }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ffffff;
+  border-top: 1px solid #dee2e6;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.text-muted {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1rem;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* Responsive Footer for Mobile */
+@media (max-width: 768px) {
+  .header-title {
+      font-size: 2rem;
+  }
+
+  header ul.nav {
+      flex-wrap: wrap;
+  }
+
+  header ul.nav li {
+      flex: 0 0 48%;
+      margin: 10px 1%;
+  }
+
+  header ul.nav li a {
+      padding: 15px;
+      font-size: 1.5rem;
+  }
+
+  footer .container {
+      flex-wrap: wrap;
+      text-align: center;
+  }
+
+  .col-md-4.d-flex {
+      white-space: normal;
+      justify-content: center;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+
+  .text-muted {
+      font-size: 0.9rem;
+  }
+
+  ul.nav {
+      justify-content: center;
+  }
+
+  ul.nav li {
+      margin: 0 10px;
+  }
+}
+
+/* Submit Button Styling (for Contact Page) */
+.btn-submit {
+  background-color: #99eaea; /* Turquoise background */
+  color: black; /* Black text */
+  border-color: #157676; /* Dark turquoise border */
+  width: 100%; /* Full width */
+}
+
+.btn-submit:hover {
+  background-color: #157676; /* Darker turquoise on hover */
+  color: white; /* White text on hover */
 }
