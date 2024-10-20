@@ -40,3 +40,6 @@ coverage
 # Optional: Temporary folders for downloads (like screenshots or generated assets)
 temp
 .tmp
+
+# Local Netlify folder
+.netlify
