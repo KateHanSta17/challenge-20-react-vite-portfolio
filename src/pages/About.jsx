@@ -1,5 +1,6 @@
 // src/pages/About.jsx
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -30,14 +31,13 @@ const About = () => {
 
             {/* Buttons */}
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="/portfolio" className="btn btn-primary btn-lg px-4 me-md-2 btn-github">
+              <Link to="/portfolio" className="btn btn-primary btn-lg px-4 me-md-2 btn-github">
                 View My Portfolio
-              </a>
-              <a href="/contact" className="btn btn-secondary btn-lg px-4 btn-live">
+              </Link>
+              <Link to="/contact" className="btn btn-secondary btn-lg px-4 btn-live">
                 Contact Kate
-              </a>
+              </Link>
             </div>
-          </div>
 
           {/* Image Section */}
           <div className="col-lg-6 text-center">
