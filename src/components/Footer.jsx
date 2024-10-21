@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="py-4 my-4 border-top">
       <div className="container d-flex flex-wrap justify-content-between align-items-center">
         <div className="col-md-4 d-flex align-items-center">
-          <img src="public/assets/Challenge 20 logo.jpg" alt="Kate Hannah Logo" className="footer-logo" />
+          <img src="assets/Challenge20logo.jpg" alt="Kate Hannah Logo" className="footer-logo" />
           <span className="text-muted">
             © 2024 This app was created by <a href="https://github.com/KateHanSta17" target="_blank" rel="noopener noreferrer">Kate Hannah</a> for Coding Bootcamp October 2024
           </span>
