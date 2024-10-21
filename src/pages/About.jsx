@@ -43,16 +43,16 @@ const About = () => {
           <div className="col-lg-6 text-center">
             <div className="row gallery-container justify-content-center">
               <div className="col-6 mb-3">
-                <img src="public/assets/Untitled design.jpg" alt="Kate Hannah" className="img-fluid rounded gallery-image" />
+                <img src="assets/Untitleddesign.jpg" alt="Kate Hannah" className="img-fluid rounded gallery-image" />
               </div>
               <div className="col-6 mb-3">
-                <img src="public/assets/Untitled design (2).jpg" alt="Kate Hannah 1" className="img-fluid rounded gallery-image" />
+                <img src="assets/Untitleddesign2.jpg" alt="Kate Hannah 1" className="img-fluid rounded gallery-image" />
               </div>
               <div className="col-6 mb-3">
-                <img src="public/assets/Untitled design (3).jpg" alt="Kate Hannah 2" className="img-fluid rounded gallery-image" />
+                <img src="assets/Untitled design3.jpg" alt="Kate Hannah 2" className="img-fluid rounded gallery-image" />
               </div>
               <div className="col-6 mb-3">
-                <img src="public/assets/Untitled design (1).jpg" alt="Kate Hannah 3" className="img-fluid rounded gallery-image" />
+                <img src="assets/Untitleddesign1.jpg" alt="Kate Hannah 3" className="img-fluid rounded gallery-image" />
               </div>
             </div>
           </div>
