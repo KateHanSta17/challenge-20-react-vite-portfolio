@@ -1,4 +1,3 @@
-// src/pages/About.jsx
 import React from 'react';
 import { Link } from "react-router-dom";
 
@@ -38,6 +37,7 @@ const About = () => {
                 Contact Kate
               </Link>
             </div>
+          </div> {/* <-- Missing closing div for text section */}
 
           {/* Image Section */}
           <div className="col-lg-6 text-center">
