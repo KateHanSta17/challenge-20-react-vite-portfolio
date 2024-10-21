@@ -69,10 +69,10 @@ npm run build
 MIT License.
 
 ## Screenshots
-![About Page](./src/assets/Screenshot%20about%20page.jpg)
-![Portfolio Page](./src/assets/Screenshot%20portfolio%20page.jpg)
-![Contact Page](./src/assets/Screenshot%20contact%20page.jpg)
-![Resume Page](./src/assets/Screenshot%20resume%20page.jpg)
+![About Page](./public/assets/Screenshot%20about%20page.jpg)
+![Portfolio Page](./public/assets/Screenshot%20portfolio%20page.jpg)
+![Contact Page](./public/assets/Screenshot%20contact%20page.jpg)
+![Resume Page](./public/assets/Screenshot%20resume%20page.jpg)
 
 ## Credits
 This project was built as part of the University of Sydney x EdX Coding Bootcamp Challenge.
