@@ -2,10 +2,10 @@
 
 ## Links
 ### Github URL
-[React Portfolio Challenge 20 Github](https://github.com/KateHanSta17/react-portfolio-challenge-20)
+[React Portfolio Challenge 20 Github](https://github.com/KateHanSta17/challenge-20-react-vite-portfolio)
 
 ### Deployed Project Link
-[Deployed React Portfolio Challenge (Netlify)](https://bespoke-crepe-771df2.netlify.app/)
+[Deployed React Portfolio Challenge (Netlify)](https://katehannahreactportfolio.netlify.app)
 
 ## Description
 This project is a React-based portfolio website built with Vite, which showcases a collection of my work as a web developer. It includes various sections such as About Me, Portfolio, Contact, and Resume. Each section provides essential information about me, my projects, and ways to contact me. The portfolio is designed with mobile-first principles, ensuring that it is responsive across different devices.

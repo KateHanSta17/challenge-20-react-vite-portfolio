@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Pick my Flick',
     description: 'Practicing Pair-Programming, this app is a movie picker device, designed using 3rd Party API\'s.',
-    imgSrc: 'public/assets/Project1screenshot.jpg',
+    imgSrc: 'assets/Project1screenshot.jpg',
     repoLink: 'https://github.com/KateHanSta17/bootcamp-project1-group-2',
     liveLink: 'https://katehansta17.github.io/bootcamp-project1-group-2/',
   },
